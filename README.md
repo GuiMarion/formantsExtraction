@@ -13,4 +13,13 @@ To install the dependencies for Matlab use please use our script:
     matlab install.m
 
 ## Functions
+    
+   * getFormants(filename (string) ): Returns the formants as a matrix (formants * time (ms))
+   * getRangeFormants(filename (string), formant (int)): Returns the range (min, max) of a given formant.
+   * getMeanFormants(filename (string), formant (int)): Returns the average frequency of a given formant.
+    
+Please refer to main_formantsExtraction.m and main_formantsExtraction.py for examples use of these functions.
 
+## Author
+
+This code was realized by Guilhem Marion, PhD student at Laboratoire des Systèmes Perceptifs, ENS, Paris. The code can be used and modify and shared as long as a trace of the repository or name remains.
