@@ -1,15 +1,15 @@
 # formantsExtraction
 This project allows you to extract each formants over time from arbitrary wave file (Python + Matlab).
 
-It uses [parselmouth](https://github.com/YannickJadoul/Parselmouth) which is a cython version of Praat allowing to use any Praat function in a pythonic envoronement. This project propose a Python version and a Matlab version of the functions. 
+The following code proposes a Python version and a Matlab version of formant extraction functions. It uses [parselmouth](https://github.com/YannickJadoul/Parselmouth) which is a cython version of Praat allowing to use any Praat function in a pythonic environment.
 
 ## Get Started
 ### Python
-To install the dependencies for Python use (we assume python is linking to your default python environement), please use our script:
+To install the dependencies for Python use (we assume the $python$ command is linking to your default python environement), you can use the following script:
     sh install_py.sh
 
 ### Matlab
-To install the dependencies for Matlab use please use our script:
+To install the dependencies for Matlab use, you can use the following script:
     matlab install.m
 
 ## Functions
@@ -18,7 +18,7 @@ To install the dependencies for Matlab use please use our script:
    * getRangeFormants(filename (string), formant (int)): Returns the range (min, max) of a given formant.
    * getMeanFormants(filename (string), formant (int)): Returns the average frequency of a given formant.
     
-Please refer to main_formantsExtraction.m and main_formantsExtraction.py for examples use of these functions.
+Please refer to *main_formantsExtraction.m* and *main_formantsExtraction.py* for examples use of these functions.
 
 ## Author
 
