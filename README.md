@@ -22,6 +22,11 @@ To install the dependencies for Matlab use, you can use the following script:
     
 Please refer to *main_formantsExtraction.m* and *main_formantsExtraction.py* for examples use of these functions.
 
+## Examples
+![LaurelFormants](Laurel.png)
+![YawheeFormants](Yawhee.png)
+
+
 ## Author
 
 This code was realized by Guilhem Marion, PhD student at Laboratoire des Systèmes Perceptifs, ENS, Paris. The code can be used, modify and shared as long as a trace of the repository or name remains.
