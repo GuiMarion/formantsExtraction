@@ -6,10 +6,12 @@ The following code proposes a Python version and a Matlab version of formant ext
 ## Get Started
 ### Python
 To install the dependencies for Python use (we assume the $python$ command is linking to your default python environement), you can use the following script:
+
     sh install_py.sh
 
 ### Matlab
 To install the dependencies for Matlab use, you can use the following script:
+    
     matlab install.m
 
 ## Functions
@@ -22,4 +24,4 @@ Please refer to *main_formantsExtraction.m* and *main_formantsExtraction.py* for
 
 ## Author
 
-This code was realized by Guilhem Marion, PhD student at Laboratoire des Systèmes Perceptifs, ENS, Paris. The code can be used and modify and shared as long as a trace of the repository or name remains.
+This code was realized by Guilhem Marion, PhD student at Laboratoire des Systèmes Perceptifs, ENS, Paris. The code can be used, modify and shared as long as a trace of the repository or name remains.
