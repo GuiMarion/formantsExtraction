@@ -23,9 +23,10 @@ To install the dependencies for Matlab use, you can use the following script:
 Please refer to *main_formantsExtraction.m* and *main_formantsExtraction.py* for examples use of these functions.
 
 ## Examples
+<p align="center">
 ![LaurelFormants](Laurel.png)
 ![YawheeFormants](Yawhee.png)
-
+</p>
 
 ## Author
 
