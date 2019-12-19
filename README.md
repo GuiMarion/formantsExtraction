@@ -5,7 +5,7 @@ The following code proposes a Python version and a Matlab version of formant ext
 
 ## Get Started
 ### Python
-To install the dependencies for Python use (we assume the $python$ command is linking to your default python environement), you can use the following script:
+To install the dependencies for Python use (we assume the *python* command is linking to your default python environement), you can use the following script:
 
     sh install_py.sh
 
