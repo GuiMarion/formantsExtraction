@@ -16,7 +16,7 @@ To install the dependencies for Matlab use, you can use the following script:
 
 ## Functions
     
-   * getFormants(filename (string) ): Returns the formants as a matrix (formants * time (ms))
+   * getFormants(filename (string), numb_formants (int, optional) ): Returns the formants as a matrix (formants * time (ms))
    * getRangeFormants(filename (string), formant (int)): Returns the range (min, max) of a given formant.
    * getMeanFormants(filename (string), formant (int)): Returns the average frequency of a given formant.
     

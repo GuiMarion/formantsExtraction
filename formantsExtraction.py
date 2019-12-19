@@ -19,9 +19,11 @@ def linearly_interpolate_nans(y):
     y.flat[np.isnan(y)] = np.dot(X[:, np.isnan(y)].T, beta)
     return y
 
-def getFormants(file):
+def getFormants(file, numb_formants=5):
 	'''
 	Return the formants as a matrix (formants * time (ms))
+	numb_formants (optional) specify the number of formants
+	you want to extract (default 5).
 	from the path to the wave file.
 	'''
 
@@ -29,7 +31,7 @@ def getFormants(file):
 
 	formants_raw = snd.to_formant_burg()
 	formants = []
-	for formant in range(0,5):
+	for formant in range(0, numb_formants):
 		formants.append([])
 		for t in np.arange(0, formants_raw.duration, 0.001):
 			formants[formant].append(formants_raw.get_value_at_time(formant+1, t))
