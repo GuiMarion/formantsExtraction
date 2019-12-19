@@ -15,7 +15,7 @@ plt.ylabel('Frequency (Hz)')
 plt.show(block=False)
 
 
-formantsLaurel = fe.getFormants("Yawhee.wav")
+formantsLaurel = fe.getFormants("Yawhee.wav", numb_formants=3)
 plt.figure()
 for elem in formantsLaurel:
 	plt.plot(elem)
